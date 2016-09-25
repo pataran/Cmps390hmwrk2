@@ -4,10 +4,9 @@ private int row = 0;
 private int column = 0;
 private int value = 0;
 
-ValueNode(int val)
+public ValueNode()
 	{
-		this.value = val;
-		System.out.println("this is valuenode" + val);
+		//System.out.println("this is valuenode" + value);
 	}
 
 }
